@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<APIProxy revision="4" name="ApigeeDemo">
+<APIProxy revision="2" name="ApigeeDemo">
+    <Basepaths>/apigeedemo</Basepaths>
     <Basepaths>/apigeedemo</Basepaths>
     <ConfigurationVersion majorVersion="4" minorVersion="0"/>
-    <CreatedAt>1573019902611</CreatedAt>
+    <CreatedAt>1576735285428</CreatedAt>
     <CreatedBy>sonal.sali@freshgravity.com</CreatedBy>
     <Description></Description>
     <DisplayName>ApigeeDemo</DisplayName>
-    <LastModifiedAt>1573722354221</LastModifiedAt>
+    <LastModifiedAt>1576735285428</LastModifiedAt>
     <LastModifiedBy>sonal.sali@freshgravity.com</LastModifiedBy>
-    <ManifestVersion>SHA-512:f1356c6837553f51acd25f991917417d04580b5441d56f2d7dccb1c08fed05a1d94d7d0342c032fc527828168d55fb9cfea813580cb348c9bfef44475a86e807</ManifestVersion>
+    <ManifestVersion>SHA-512:ec5b8249bcc360c86950b039233c84450446d5909955de580a16a3b646f7186d01526821aa3f99e75158dd2e2fc2f193f3f2210d7aa140866b243b7909d359f9</ManifestVersion>
     <Policies>
         <Policy>Assign-Message-1</Policy>
-        <Policy>JSON-to-XML-1</Policy>
         <Policy>Quota-1</Policy>
-        <Policy>Response-Cache-1</Policy>
     </Policies>
     <ProxyEndpoints>
         <ProxyEndpoint>default</ProxyEndpoint>

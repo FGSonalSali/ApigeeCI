@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <AssignMessage async="false" continueOnError="false" enabled="true" name="Assign-Message-1">
     <DisplayName>Assign Message-1</DisplayName>
+    <FaultRules/>
+    <Properties/>
     <Add>
         <QueryParams>
             <QueryParam name="q">{request.header.search}</QueryParam>
@@ -12,5 +14,5 @@
         </Headers>
     </Remove>
     <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
-    <AssignTo createNew="false" transport="http" type="request"/>
+    <AssignTo type="request" transport="http" createNew="false"></AssignTo>
 </AssignMessage>
