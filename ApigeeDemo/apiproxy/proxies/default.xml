@@ -21,8 +21,7 @@
         <BasePath>/apigeedemo</BasePath>
         <Properties/>
         <VirtualHost>default</VirtualHost>
-        <VirtualHost>secure</VirtualHost>
-    </HTTPProxyConnection>
+        </HTTPProxyConnection>
     <RouteRule name="default">
         <TargetEndpoint>default</TargetEndpoint>
     </RouteRule>
