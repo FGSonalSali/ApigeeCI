@@ -9,15 +9,12 @@
     </PostFlow>
     <PreFlow name="PreFlow">
         <Request>
-            <Step>
-                <FaultRules/>
-                <Name>Assign-Message-1</Name>
-            </Step>
+            
         </Request>
         <Response/>
     </PreFlow>
     <HTTPTargetConnection>
         <Properties/>
-        <URL>https://www.googleapis.com/books/v1/volumes</URL>
+        <URL>https://www.httpbin.org/get</URL>
     </HTTPTargetConnection>
 </TargetEndpoint>
